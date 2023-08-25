@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Task page</title>
+</head>
+<body style="background:linear-gradient(90deg, hsla(17, 95%, 50%, 1) 0%, hsla(42, 94%, 57%, 1) 100%);">
+  <div style="background-color: white;" class="border rounded">
+    <h1 style="color: orangered;" class="text-center">Examination Results</h1>
+  </div>
+    <div style="height: 100vh;" class="w-80 d-flex justify-content-center align-items-center border-shadow">
+        <div class="w-80 border rounded shadow p-2" style="background-color: white;">
+          <h2 class="text-primary text-center">Students Mark Sheet</h2>
+        <table class="table table-bordered border-primary text-center">
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">English</th>
+                <th scope="col">Hindi</th>
+                <th scope="col">Malayalam</th>
+                <th scope="col">Science</th>
+                <th scope="col">IT</th>
+                <th scope="col">Total</th>
+                <th scope="col">Pass/Fail</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Rohith</th>
+                <td>75</td>
+                <td>72</td>
+                <td>65</td>
+                <td>69</td>
+                <td>71</td>
+                <td>352</td>
+                <td class="text-success">passed</td>
+              </tr>
+              <tr>
+                <th scope="row">Rahul</th>
+                <td>63</td>
+                <td>55</td>
+                <td>52</td>
+                <td>54</td>
+                <td>68</td>
+                <td>292</td>
+                <td class="text-success">Passed</td>
+              </tr>
+              <tr>
+                <th scope="row">Kiran</th>
+                <td>52</td>
+                <td>45</td>
+                <td>50</td>
+                <td>43</td>
+                <td>56</td>
+                <td>246</td>
+                <td class="text-success">Passed</td>
+              </tr>
+              <tr>
+                <th scope="row">Sudheesh</th>
+                <td>40</td>
+                <td>66</td>
+                <td>23</td>
+                <td>32</td>
+                <td>21</td>
+                <td>182</td>
+                <td class="text-danger">Failed</td>
+              </tr>
+              <tr>
+                <th scope="row">Hari</th>
+                <td>61</td>
+                <td>20</td>
+                <td>24</td>
+                <td>22</td>
+                <td>44</td>
+                <td>171</td>
+                <td class="text-danger">Failed</td>
+              </tr>
+              
+            </tbody>
+          </table>
+          <input style="float: right;" type="button" class="btn btn-primary p-2" value="Check Another Result" onclick="anotherrslt()">
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>
